@@ -9,6 +9,7 @@ gem 'dotenv', '~> 2.8.1'  # For environment variables
 gem 'rack', '~> 3.0'
 gem 'sinatra', '~> 4.1.1'
 
-gem 'sinatra-contrib', '~> 2.1'
 
+gem 'sinatra', '~> 4.1.1'
+gem 'sinatra-contrib', '~> 3.0'  # Ensure this is compatible with Sinatra 4.x
 
