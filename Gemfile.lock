@@ -57,7 +57,7 @@ DEPENDENCIES
   mysql2
   puma (~> 5.6.4)
   rack (= 2.2.3)
-  sinatra (= 2.0.0)
+  sinatra
   sinatra-contrib (~> 2.0)
 
 RUBY VERSION
