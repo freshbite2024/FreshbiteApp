@@ -1,3 +1,5 @@
+require_relative '../models/testing'
+
 module Sinatra
   module RetailerApp
     module Routing
