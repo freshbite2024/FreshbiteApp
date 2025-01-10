@@ -1,30 +1,32 @@
-/* Custom styles for the homepage */
-
-/* Carousel image */
-.carousel-item img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
 }
-
-/* Container padding */
-.container {
-  margin-top: 30px;
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+    text-align: center;
 }
-
-/* Card margin */
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+nav {
+    margin-bottom: 20px;
+}
+.nav-link {
+    color: #28a745;
+}
+.nav-link:hover {
+    color: #155724;
+}
 .card {
-  margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* Navbar background */
-.navbar {
-  background-color: #f8f9fa;
-}
-
-/* Footer styles */
-footer {
-  background-color: #f8f9fa;
-  padding: 20px;
-  color: #6c757d;
+.card-title {
+    font-weight: bold;
+    color: #28a745;
 }
