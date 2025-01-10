@@ -3,6 +3,8 @@ require 'active_record'
 require 'mysql2'
 require 'dotenv/load'  # Optional for .env file
 require 'sinatra/namespace'
+require 'sinatra/activerecord'
+
 
 # Load helpers dynamically
 Dir["helpers/*.rb"].each { |helper| require_relative helper }

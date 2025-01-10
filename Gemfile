@@ -9,6 +9,8 @@ gem 'dotenv', '~> 2.8.1'  # For environment variables (useful for Heroku config 
 gem 'sinatra', '~> 2.2'
 gem 'sinatra-contrib', '~> 2.2'
 gem 'rack', '~> 2.2'
+gem 'sinatra-activerecord'
+
 
 
 
