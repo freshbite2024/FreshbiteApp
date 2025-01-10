@@ -1,0 +1,30 @@
+/* Custom styles for the homepage */
+
+/* Carousel image */
+.carousel-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Container padding */
+.container {
+  margin-top: 30px;
+}
+
+/* Card margin */
+.card {
+  margin-bottom: 20px;
+}
+
+/* Navbar background */
+.navbar {
+  background-color: #f8f9fa;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  color: #6c757d;
+}
