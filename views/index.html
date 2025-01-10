@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homepage</title>
+  <title>Bootstrap Homepage with Carousel</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJp9o6XwDbr7WmQ6I5AAy9jjr0E7+1z1WrknZC7j9eTqqVbA==" crossorigin="anonymous">
   <!-- Custom CSS -->
@@ -60,43 +60,52 @@
   </div>
 
   <!-- Main Content -->
-  <div class="container">
+  <div class="container mt-4">
+    <h2 class="text-center mb-4">Our Products</h2>
     <div class="row">
+      <!-- Product 1 -->
       <div class="col-md-4">
-        <div class="card">
+        <div class="card shadow-sm">
           <img src="https://via.placeholder.com/300x200.png?text=Sprouts" class="card-img-top" alt="Sprouts">
           <div class="card-body">
             <h5 class="card-title">Healthy Sprouts</h5>
             <p class="card-text">Packed with nutrients, fresh and organic sprouts for your healthy lifestyle.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-success btn-lg">Buy Now</a>
           </div>
         </div>
       </div>
+      <!-- Product 2 -->
       <div class="col-md-4">
-        <div class="card">
+        <div class="card shadow-sm">
           <img src="https://via.placeholder.com/300x200.png?text=Honey+Sauces" class="card-img-top" alt="Honey Sauces">
           <div class="card-body">
             <h5 class="card-title">Honey Sauces</h5>
             <p class="card-text">Delicious and natural honey-based sauces for all your meals.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary btn-lg">Buy Now</a>
           </div>
         </div>
       </div>
+      <!-- Product 3 -->
       <div class="col-md-4">
-        <div class="card">
+        <div class="card shadow-sm">
           <img src="https://via.placeholder.com/300x200.png?text=Dry+Fruits" class="card-img-top" alt="Dry Fruits">
           <div class="card-body">
             <h5 class="card-title">Dry Fruits</h5>
             <p class="card-text">Premium dry fruits, handpicked and packed for your health.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-warning btn-lg">Buy Now</a>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Call-to-Action Section -->
+    <div class="text-center mt-5">
+      <a href="#" class="btn btn-danger btn-lg">Shop All Products</a>
+    </div>
   </div>
 
   <!-- Footer -->
-  <footer class="bg-light text-center py-4">
+  <footer class="bg-light text-center py-4 mt-5">
     <p>&copy; 2025 Fresh Bite. All rights reserved.</p>
   </footer>
 
