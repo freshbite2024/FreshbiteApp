@@ -6,6 +6,7 @@
     <title>Fresh Bite Dashboard</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,18 +17,29 @@
             color: white;
             padding: 15px;
             text-align: center;
+            position: relative;
         }
         header img {
-            max-height: 60px;
+            max-height: 80px;
         }
         nav {
-            margin-bottom: 20px;
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
         }
-        .nav-link {
-            color: #28a745;
+        .navbar-nav .nav-link {
+            color: white;
+            font-size: 16px;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
         }
-        .nav-link:hover {
-            color: #155724;
+        .navbar-nav .nav-link i {
+            margin-right: 5px;
+        }
+        .navbar-toggler {
+            background-color: white;
         }
         .card {
             border: none;
@@ -43,27 +55,24 @@
 <body>
     <header>
         <img src="assets/fresh_bite_logo.png" alt="Fresh Bite Logo">
-    </header>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Retailers</a>
+                        <a class="nav-link" href="#"><i class="fas fa-store"></i> Retailers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Raw Material</a>
+                        <a class="nav-link" href="#"><i class="fas fa-box"></i> Raw Material</a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <div class="container">
+    <div class="container mt-4">
         <h2 class="text-center text-success mb-4">Dashboard</h2>
 
         <div class="row">
@@ -96,8 +105,5 @@
 
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Add any JavaScript functionality if needed
-    </script>
 </body>
 </html>
